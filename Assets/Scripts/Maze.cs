@@ -25,7 +25,7 @@ public class Maze : MonoBehaviour
     {
         timer += Time.deltaTime;
         currentIntTimer = (int)timer;
-        PlayMusic();
+        //PlayMusic();
 
     }
 
