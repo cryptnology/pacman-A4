@@ -31935,6 +31935,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
+  timer: 0
+  currentIntTimer: 0
+  direction: {x: 0, y: 0}
 --- !u!82 &1598854001
 AudioSource:
   m_ObjectHideFlags: 0
@@ -41718,7 +41721,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4010959879654613889, guid: 3dfccc9ee409441e98e33a95c5492741, type: 3}
       propertyPath: m_Name
-      value: PacmanStudent
+      value: PacStudent
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3dfccc9ee409441e98e33a95c5492741, type: 3}
