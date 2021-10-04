@@ -34019,7 +34019,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9ebd0a6b00de47c8b9e8e47c1db8512, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  intro: {fileID: 8300000, guid: deda44226b06e4d989426b88b880e3b0, type: 3}
+  intro: {fileID: 8300000, guid: 8a31b5ec7543b4b8ab4ac57856d2703c, type: 3}
   backgroundNormal: {fileID: 8300000, guid: 2fd3640b3d2194ef699348e5152c0858, type: 3}
 --- !u!1 &1744916258
 GameObject:
@@ -41718,7 +41718,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4010959879654613889, guid: 3dfccc9ee409441e98e33a95c5492741, type: 3}
       propertyPath: m_Name
-      value: Pacman
+      value: PacmanStudent
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3dfccc9ee409441e98e33a95c5492741, type: 3}
