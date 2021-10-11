@@ -4,20 +4,20 @@ using UnityEngine;
 
 public class Maze : MonoBehaviour
 {
-    public AudioClip intro;
-    public AudioClip backgroundNormal;
+    //public AudioClip intro;
+    //public AudioClip backgroundNormal;
 
-    private bool playedIntro = false;
-    private bool playedBackgroundNormal = false;
+    //private bool playedIntro = false;
+    //private bool playedBackgroundNormal = false;
 
-    private new AudioSource audio;
+    //private new AudioSource audio;
 
     float timer = 0.0f;
     int currentIntTimer = 0;
 
     void Start()
     {
-        audio = transform.GetComponent<AudioSource>();
+        //audio = transform.GetComponent<AudioSource>();
 
     }
 
@@ -29,19 +29,19 @@ public class Maze : MonoBehaviour
 
     }
 
-    void PlayMusic()
-    {
-        if (!playedIntro)
-        {
-            audio.PlayOneShot(intro);
-            playedIntro = true;
+    //void PlayMusic()
+    //{
+    //    if (!playedIntro)
+    //    {
+    //        audio.PlayOneShot(intro);
+    //        playedIntro = true;
 
-        }
-        if (currentIntTimer > 4 && !playedBackgroundNormal)
-        {
-            audio.PlayOneShot(backgroundNormal);
-            playedBackgroundNormal = true;
-        }
+    //    }
+    //    if (currentIntTimer > 4 && !playedBackgroundNormal)
+    //    {
+    //        audio.PlayOneShot(backgroundNormal);
+    //        playedBackgroundNormal = true;
+    //    }
 
-    }
+    //}
 }
