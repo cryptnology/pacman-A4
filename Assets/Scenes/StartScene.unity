@@ -2083,6 +2083,7 @@ GameObject:
   - component: {fileID: 2105840973}
   - component: {fileID: 2105840972}
   - component: {fileID: 2105840976}
+  - component: {fileID: 2105840977}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2281,6 +2282,29 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2105840977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105840971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c117da0fb851e4d96978e310e6b0d353, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  border:
+  - {fileID: 1595977600}
+  - {fileID: 291709664}
+  - {fileID: 1562487120}
+  - {fileID: 1513659280}
+  - {fileID: 489457764}
+  - {fileID: 1409533736}
+  - {fileID: 1294624491}
+  - {fileID: 529815238}
+  - {fileID: 1987957733}
+  - {fileID: 522895172}
 --- !u!1 &2131475485
 GameObject:
   m_ObjectHideFlags: 0
