@@ -31931,7 +31931,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1598853996}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd6bc41162b594c3bbfe280cdcecc17a, type: 3}
+  m_Script: {fileID: 11500000, guid: ac490a35413174e18b6ca71c30dcd03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
@@ -31945,7 +31945,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 9abdcfdd3e39b43c68550b927d16942e, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 0.2
   m_Pitch: 1
@@ -33907,7 +33907,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 2fd3640b3d2194ef699348e5152c0858, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.2
   m_Pitch: 1
@@ -34019,8 +34019,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9ebd0a6b00de47c8b9e8e47c1db8512, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  intro: {fileID: 8300000, guid: 8a31b5ec7543b4b8ab4ac57856d2703c, type: 3}
-  backgroundNormal: {fileID: 8300000, guid: 2fd3640b3d2194ef699348e5152c0858, type: 3}
 --- !u!1 &1744916258
 GameObject:
   m_ObjectHideFlags: 0
@@ -41718,7 +41716,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4010959879654613889, guid: 3dfccc9ee409441e98e33a95c5492741, type: 3}
       propertyPath: m_Name
-      value: PacmanStudent
+      value: PacStudent
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3dfccc9ee409441e98e33a95c5492741, type: 3}

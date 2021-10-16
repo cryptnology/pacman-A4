@@ -1,9 +1,8 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Pacman : MonoBehaviour
+public class PacStudent : MonoBehaviour
 {
     public float speed = 4.0f;
 
