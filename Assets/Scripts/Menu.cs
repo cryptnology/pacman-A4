@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
@@ -9,11 +10,11 @@ public class Menu : MonoBehaviour
     float currentIntTimer = 0.0f;
     public Image[] border;
 
-    void Start()
-    {
+    public bool levelText1 = true;
 
-    }
-
+    public Text level1;
+    public Text level2;
+    public Text levelSelector;
 
     void Update()
     {
@@ -46,6 +47,27 @@ public class Menu : MonoBehaviour
             border[8].enabled = false;
             border[9].enabled = true;
             timer = 0;
+        }
+
+        if (Input.GetKeyUp(KeyCode.UpArrow))
+        {
+            if (!levelText1)
+            {
+                levelText1 = true;
+                levelSelector.transform.localPosition = new Vector3(levelSelector.transform.localPosition.x, level1.transform.localPosition.y, levelSelector.transform.localPosition.z);
+            }
+        }
+        else if (Input.GetKeyUp(KeyCode.DownArrow))
+        {
+            if (levelText1)
+            {
+                levelText1 = false;
+                levelSelector.transform.localPosition = new Vector3(levelSelector.transform.localPosition.x, level2.transform.localPosition.y, levelSelector.transform.localPosition.z);
+            }
+        }
+        else if (Input.GetKeyUp(KeyCode.Return) && levelText1)
+        {
+            SceneManager.LoadScene("Level_1");
         }
     }
 }
