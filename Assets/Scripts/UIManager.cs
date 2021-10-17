@@ -17,6 +17,11 @@ public class UIManager : MonoBehaviour
 
     }
 
+    public void LoadLevel1()
+    {
+        SceneManager.LoadScene("Level_1");
+    }
+
     public void ExitLevel()
     {
         SceneManager.LoadScene("StartScene");
