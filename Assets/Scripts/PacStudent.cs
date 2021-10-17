@@ -1,9 +1,8 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Pacman : MonoBehaviour
+public class PacStudent : MonoBehaviour
 {
     public float speed = 4.0f;
 
@@ -20,33 +19,6 @@ public class Pacman : MonoBehaviour
     void Update()
     {
         //CheckInput();
-
-        timer += Time.deltaTime;
-        currentIntTimer = (int)timer;
-
-
-        if (currentIntTimer > 0 && currentIntTimer < 2)
-        {
-            direction = Vector2.left;
-        }
-        if (currentIntTimer == 1)
-        {
-            direction = Vector2.up;
-        }
-        if (currentIntTimer == 2)
-        {
-            direction = Vector2.right;
-
-        }
-        if (currentIntTimer == 3)
-        {
-            direction = Vector2.down;
-        }
-        if (currentIntTimer == 4)
-        {
-            direction = Vector2.left;
-            timer = 0;
-        }
 
         Move();
         CheckOrientation();
